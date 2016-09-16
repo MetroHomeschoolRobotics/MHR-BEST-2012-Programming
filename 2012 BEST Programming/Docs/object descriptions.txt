@@ -1,0 +1,49 @@
+Object types:
+
+Variable
+	werdz
+		boolean (bool) (true/false)
+		integer (int) (whole number)
+		float (float) (decimal)
+
+int variableName;
+
+VariableThatDoesSomething
+variable_that_does_something
+variablethatdoessomething
+
+Array   
+	motor[motorName] - motorNames defined in motor/sensor config
+	vexRT[]
+		vexRT[ChX] - Analog channels/Joystick axes
+		vexRT[BtnXX] - Buttons (obvious?)
+	SensorValue[sensorName] - sensorNames defined in motor/sensor config
+	
+Function
+	math
+		+, -, *, /, ^, abs(), =, ++
+	trueFunctions();
+		functionName(variable1, variable2);
+wait10ms(78);
+
+
+To set a variable:
+	variableName = value;
+	variableName = otherVariable;
+
+Program flow declarations:
+
+if() {
+	
+} else if() {
+
+} else {
+
+}
+
+
+int var = 0;
+while(var < 10){
+	doSomething();
+	var++;
+}
